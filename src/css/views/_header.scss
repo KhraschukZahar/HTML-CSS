@@ -1,0 +1,37 @@
+.image{
+    background-image: url(../../img/Bg_Dark2.svg);
+    height: 56px;
+}
+
+.text{
+    
+    @include font(20px,$font-thin,$bg-primary-3)
+}
+.blue-ground{
+    background-color : $bg-primary-2;
+    height: 40px;
+}
+.white-ground
+{
+    background-color : $bg-primary-3;
+    height: 470px;
+}
+.blue-ground-2{
+    background-color : $bg-primary-4;
+    height: 109px;
+}
+.white-ground-2
+{
+    background-color : $bg-primary-5;
+    height: 2275px;
+}
+.caddea-ground
+{
+    background-color : $bg-primary-6;
+    height: 75px;
+}
+.dark-blue-ground
+{
+    background-color : $bg-primary-1;
+    height : 373px;
+}
